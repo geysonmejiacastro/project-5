@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+
+# Vite build output
+dist/
+
+# Environment variables (front-end only)
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
