@@ -1,5 +1,5 @@
-import React from 'react';
-import type { Item } from '../types';
+import * as React from 'react';
+type Item = { id: number; name: string; quantity: number; [key: string]: any };
 import ItemRow from './ItemRow';
 
 interface Props {

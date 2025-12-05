@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import type { Item } from './types';
-import ItemForm from './components/ItemForm';
-import ItemList from './components/ItemList';
+import ItemForm from '../components/ItemForm';
+import ItemList from '../components/ItemList';
 
 const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:4000';
 
